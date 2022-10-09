@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    font-size: 30px;
+}
+.header{
+    width: 100%;
+    height: 100px;
+}
+.logo{
+    width: 30%;
+    height: 100px;
+    background-color: red;
+    line-height: 100px;
+    text-align: center;
+    float: left;
+}
+.banner{
+    width: 70%;
+    height: 100px;
+    background-color: aqua;
+    line-height: 100px;
+    text-align: center;
+    float: left;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: yellow;
+}
+.nav{
+    float: left;
+}
+.navbar .list li{
+    display: inline-block;
+    line-height: 70px;
+}
+.list li a{
+    text-decoration: none;
+    padding: 0 20px 0 20px;
+}
+.search{
+    line-height: 70px;
+    float:right;
+    display: inline-block;
+}
+.conten{
+    width: 100%;
+    height: 800px;
+}
+.conten-left{
+    width: 20%;
+    height: 800px;
+    float: left;
+}
+.left-up{
+    width: 100%;
+    height: 400px;
+    background-color: blueviolet;
+}
+.conten-left-up-ul{
+    padding: 20px 0 0 20px;
+}
+.conten-left-up-ul li{
+    padding-bottom: 20px;
+    display: block;
+}
+.left-down{
+    width: 100%;
+    height: 400px;
+    background-color: brown;
+}
+.conten-center{
+    width: 55%;
+    height: 800px;
+    text-align: center;
+    float: left;
+}
+.conten-up{
+    width: 100%;
+    height: 250px;
+
+}
+.conten-up-left{
+    width: 50%;
+    height: 250px;
+    background-color: bisque;
+    line-height: 250px;
+    float: left;
+}
+.conten-up-right{
+    width: 50%;
+    height: 250px;
+    line-height: 250px;
+    background-color: rgb(218, 142, 49);
+    float: left;
+}
+.conten-down{
+    width: 100%;
+    height: 550px;
+}
+.down1{
+    width: 33.333%;
+    height: 275px;
+    background-color: #456;
+    line-height: 275px;
+    float: left;
+}
+.down2{
+    width: 33.333%;
+    height: 275px;
+    background-color: #399;
+    line-height: 275px;
+    float: left;
+}
+.down3{
+    width: 33.333%;
+    height: 275px;
+    background-color: #111;
+    line-height: 275px;
+    float: left;
+}
+.down4{
+    width: 33.333%;
+    height: 275px;
+    background-color: #322;
+    line-height: 275px;
+    float: left;
+}
+.down5{
+    width: 33.333%;
+    height: 275px;
+    background-color: #400;
+    line-height: 275px;
+    float: left;
+}
+.down6{
+    width: 33.333%;
+    height: 275px;
+    background-color: #098;
+    line-height: 275px;
+    float: left;
+}
+.conten-right{
+    width: 25%;
+    height: 800px;
+    background-color: #456;
+    float: left;
+}
+.conten-right p{
+    font-size: 100px;
+    padding: 5% 25% 10% 25%;
+}
+.footer{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(196, 53, 196);
+    line-height: 70px;
+}
+.footer p{
+    float: left;
+    padding-left: 5px;
+}
+.footer ul li{
+    display: inline-block;
+    float: right;
+}
+.footer li a{
+    text-decoration: none;
+    padding: 0 20px 0 30px;
+}
+/*ipad*/
+@media only screen and (max-width:<740) {
+    .html{
+        color: red;
+    }
+}

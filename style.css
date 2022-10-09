@@ -1,0 +1,39 @@
+html{
+    margin: auto;
+
+    
+}
+.circle{
+    padding: 35px;
+    width: 120px;
+    border-radius:50%;
+    box-shadow: inset 0 0 20px #333;
+}
+.square{
+    
+    box-shadow: inset 0 0 30px red;
+    padding: 0 0 100px 0;
+}
+.hcn{
+    display: flex;
+    border: 5px solid rgb(241, 145, 19);
+    width: 420px;
+    border-radius: 10%;
+}
+.tron1{
+    box-shadow: 0 0 0 5px rgb(209, 54, 183);
+    width: 180px;
+    height: 60px;
+    border-radius: 40%;
+    padding-left: 30px;
+    box-sizing: border-box;
+    
+}
+.tron2{
+    box-shadow: 0 0 0 5px #084;
+    width: 180px;
+    height: 60px;
+    float: left;
+    border-radius: 40%;
+    box-sizing: border-box;
+}
